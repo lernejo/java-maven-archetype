@@ -4,7 +4,7 @@
 
     <groupId>com.github.lernejo</groupId>
     <artifactId>java-maven-archetype</artifactId>
-    <version>4A.2020.RC1</version>
+    <version>4A.2020.RC2</version>
     <packaging>maven-archetype</packaging>
 
     <properties>
