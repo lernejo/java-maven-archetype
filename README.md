@@ -1,2 +1,4 @@
-# java-maven-archetype
-Maven archetype with basic Java setup
+# TP-maven-archetype
+Maven archetype for Java exercice.
+
+

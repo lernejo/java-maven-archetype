@@ -3,8 +3,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.lernejo</groupId>
-    <artifactId>java-maven-archetype</artifactId>
-    <version>4A.2020.RC3-SNAPSHOT</version>
+    <artifactId>tp-maven-archetype</artifactId>
+    <version>4A.2021.RC1-SNAPSHOT</version>
     <packaging>maven-archetype</packaging>
 
     <properties>
@@ -16,8 +16,27 @@
             <extension>
                 <groupId>org.apache.maven.archetype</groupId>
                 <artifactId>archetype-packaging</artifactId>
-                <version>3.1.1</version>
+                <version>3.2.0</version>
             </extension>
         </extensions>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-jar-plugin</artifactId>
+                    <version>2.4</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <addDefaultExcludes>false</addDefaultExcludes>
+                </configuration>
+            </plugin>
+        </plugins>
     </build>
 </project>
