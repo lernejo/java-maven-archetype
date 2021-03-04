@@ -4,7 +4,7 @@
 
     <groupId>com.github.lernejo</groupId>
     <artifactId>tp-maven-archetype</artifactId>
-    <version>4A.2021.RC1-SNAPSHOT</version>
+    <version>4A.2021.RC1</version>
     <packaging>maven-archetype</packaging>
 
     <properties>
